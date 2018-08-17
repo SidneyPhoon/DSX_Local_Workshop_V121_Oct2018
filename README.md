@@ -24,22 +24,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 2. Navigate to **Assets** view and open **TelcoChurn_SparkML** *Jupyter* notebook. This notebook has been implemented for the Python 2.7 runtime. The version of the runtime is displayed on the top right corner of the notebook. You can verify the runtime by running the first cell in the notebook. 
 3. Follow instructions in the notebook.
 
-### Lab 2: Build, Save and Test Scikit-Learn Models (Jupyter/Python)
-1. Navigate to **Assets** view and open **CreditCardDefault_SkLearn** notebook.  
-2. Follow instructions in the notebook.
-
-### Lab 3: Build, Save and Test SparkML models (Zeppelin/Python)
-1. Navigate to **Assets** view and open **TelcoChurn_Zeppelin** notebook.  
-2. Follow instructions in the notebook.
-
-### Lab 4: Build R models in Jupyter and deploy into Shiny App
-1. Navigate to **Assets** view and open **DriverClassification** notebook.  
-2. Execute the code cells in the notebook, making sure to save the model into RStudio
-3. Open RStudio
-4. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
-
-
-### Lab 5: SPSS Modeler in DSX
+### Lab 2: SPSS Modeler in DSX
 1. Navigate to **SPSS Modeler Flows** and open the **Predict_Customer_Churn** Modeler Stream.
 2. Review the Modeler steam and the palette of nodes
 3. Add a **C5** modeling node to the canvas and connect it to the Partition node.  Build a C5 model.
@@ -58,7 +43,7 @@ Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/DSX_Local_Wo
 
 
 
-### Lab 6: Create Batch Script and Test Batch Scoring
+### Lab 3: Create Batch Script and Test Batch Scoring
 1. You must have completed "Lab 1: Build, Save and Test SparkML Models" before working through this lab.
 2. Navigate the to the **Models** section of the project and click into the saved **Telco_Churn_ML_model**.
 3. Click the **Batch score** tab.
@@ -73,7 +58,7 @@ Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/DSX_Local_Wo
 9. Click **Run now** and wait till the status changes to Success (Scroll to the bottom of page to see the job status).
 10. Verify that the *new_customers_scores.csv* is in the data section of the project.
 
-### Lab 7: Create Model Evaluation Script and Test Evaluation
+### Lab 4: Create Model Evaluation Script and Test Evaluation
 1. You must have completed "Lab 1: Build, Save and Test SparkML Models" before working through this lab.
 2. Navigate the to the **Models** section of the project and click into the saved **Telco_Churn_ML_model**.
 3. Click the **Evaluate** tab.
@@ -86,8 +71,8 @@ Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/DSX_Local_Wo
 8. To see the results of the model evaluation, navigate the to the **Models** section of the project and click into the model  **Telco_Churn_ML_model**.  Scorll down to the **Evaluation results** section.<br/>
 ![model_eval_results](/img/model_eval_results.png?raw=true)
 
-### Lab 8: Deploy Project into Production
-1. You must have completed Lab 1, Lab 6 and Lab 7 before working through this lab.
+### Lab 5: Deploy Project into Production
+1. You must have completed Lab 1, Lab 3 and Lab 4 before working through this lab.
 2. Navigate to the top of the project assets page and click **Commit and push**.<br/>
 ![commit_push](/img/commit_push.png?raw=true)
 3. Specify the **commit message** about the changes you are committing, e.g. "*deploy generated scripts*".
