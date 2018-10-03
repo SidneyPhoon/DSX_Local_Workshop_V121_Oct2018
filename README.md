@@ -93,11 +93,6 @@ A tag is used to identify a specific version of the project. There may be many v
 ![commit_history](/img/commit_history.png?raw=true)
 5.  Provide a tag, for example, WorkshopRelease, and click **Save**.
 ![commit_history tagged](/img/commit_history_tagged.png?raw=true)
-
-
-
-4. Specify a **version tag**, e.g. *workshop-release-<your initials>*.  A version tag marks a deployment ready version of the project, and identifies a specific version of the project.
-5. Click **Commit and push**.
 6. Navigate to the **Deployment Manager**.  <br/>
 ![deployment_manager](/img/deployment_manager.png?raw=true)
 7. Click the **+** icon to create a project release.
