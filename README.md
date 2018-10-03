@@ -134,6 +134,8 @@ A tag is used to identify a specific version of the project. There may be many v
     ![mmd_deployments](/img/test_webservice_deployment.png?raw=true)<br/>
     - **App**: To test an app, i.e. Shiny App or Notebook, click on the ellipses next to app deployment, select Share Endpoint, and copy and paste it to a new browser window. <br/>
     ![mmd_deployments](/img/test_app_deployment.png?raw=true)<br/>
+    - **Job**:  To test a job, e.g. model eval or batch job, click on the deployment. Click the **API** tab.  Click **Start** from the dropdown menu, then click Submit. This issues the REST request to invoke the batch job.<br/>
+    ![mmd_deployments](/img/test_job_deployment.png?raw=true)<br/>
 
 
 
