@@ -81,7 +81,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 8. Navigate the to the **RStudio** section and click **Open RStudio**
 9. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
-### Lab 5: Deploy Project into Production
+### Lab 5: Deployment
 1. You must have completed Lab 1, Lab 2, Lab 3 and Lab 4 before working through this lab.
 2. Data scientists have to commit changes to the project. You can commit assets by clicking on the 
 Git action icon in the top right corner.  Select **Commit**, then **Push**. Specify the commit message about the changes you are committing, e.g. "deploy generated scripts".<br/>
