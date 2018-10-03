@@ -56,8 +56,14 @@ This repository contains several lab subfolders. Some labs include notebooks and
 1. Navigate to **Assets** view, in the **Notebooks** section open **DriverClassification** notebook.  
 2. Execute the code cells in the notebook, making sure to save the model into the RStudio directory and the ML Repository
 3. Navigate the to the **Models** section and click into the saved **BrakeEventClassifier**.
-4. Click the **Real-time score** tab.  Enter these values to test the model, brake_time_sec=5, brake_distance_ft=15, road_type=highway, braking_score=100, brake_pressure20pct=1, brake_pressure40pct=1, brake_pressure60pct=1, brake_pressure80pct=0, brake_pressure100pct=0, abs_event=0, travel_speed=65
-5.
+4. Click the **Real-time score** tab.  Enter these values and click Submit to test the model, brake_time_sec=5, brake_distance_ft=15, road_type=highway, braking_score=100, brake_pressure20pct=1, brake_pressure40pct=1, brake_pressure60pct=1, brake_pressure80pct=0, brake_pressure100pct=0, abs_event=0, travel_speed=65
+5. Click the **Batch score** tab.
+  5.1 For **Input data set**, select *TelcoModelFeedback.csv*.
+  5. For **Output data set**, check **"Local file"** and specify *new_customers_scores.csv*.
+  6. On the top right, click **Advanced Settings**.
+  7. Scroll through the Advanced Setting to see the various options.  Click **Save** to save the default settings.
+  8. Click **Generate Batch Script**.  (Note: the batch script can be edited. For example, to perform pre/post processing tasks)
+6.erer
 
 3. Open RStudio
 4. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
