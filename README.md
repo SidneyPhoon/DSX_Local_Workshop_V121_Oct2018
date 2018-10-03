@@ -36,8 +36,9 @@ This repository contains several lab subfolders. Some labs include notebooks and
 
 ![batchscoring](/img/batch_scoring.png?raw=true)
 
-9. Click **Run now** and wait till the status changes to Success (Scroll to the bottom of page to see the job status).
+9. Click **Run now**. Wait till the status changes to Success or refresh the browser to see the job status (Scroll to the bottom of page to see the job status).
 10. Verify that the *new_customers_scores.csv* is in the data section of the project.
+<br/>
 
 ### Lab 3: Create Model Evaluation Script and Test Evaluation (Python)
 1. You must have completed "Lab 1: Build, Save and Test SparkML Models" before working through this lab.
