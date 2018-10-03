@@ -116,11 +116,12 @@ A tag is used to identify a specific version of the project. There may be many v
     - Click **Create**<br/>
 18. Filter the assets by **Scripts** and configure jobs for the batch scoring and model evaluation scripts. Create 4 jobs for the 4 scripts listed.  Make sure the select the appropriate **Type** and **Worker**.  For example, for the BreakEventClassifier model evaluation script, specify: <br/>
 ![mmd_create job for scripts](/img/mmd_create_job_for_scripts.png?raw=true)<br/>
-
-
-19. Click the **Deployments** tab to list all the deployments you have created. <br/>
+19.  Filter the assets by **Shiny App**, click **app** to configure the deployment for the Shiny App.  Give it a name, e.g. * *demo-break-events-app* *.
+20. Click the **Deployments** tab to list all the deployments you have created. <br/>
 ![mmd_deployments](/img/mmd_deployments.png?raw=true)<br/>
-18. The deployments are in a disabled state because the project has not been launch.  Click the **Launch** button at the top right corner.<br/>
+21. The deployments are in a disabled state because the project has not been launch.  
+
+19. Click the **Launch** button at the top right corner.<br/>
 Launching the release will:
 * Start all environments that will be used for deployment
 * Enable the REST endpoints
