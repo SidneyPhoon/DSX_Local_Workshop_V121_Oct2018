@@ -49,7 +49,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 
 5. Click **Advanced Settings** and change the name of the script. For example, you can name it ChurnModelEvalScript. Click Save.
 6. Click **Generate evaluation Script**.
-7. Click **Run now** and wait till the status changes to Success (Scroll to the bottom of page to see the job status).
+7. Click **Run now**. Wait till the status changes to Success or refresh the browser to see the job status (Scroll to the bottom of page to see the job status).
 8. To see the results of the model evaluation, navigate the to the **Models** section of the project and click into the model  **Telco_Churn_ML_model**.  Scorll down to the **Evaluation results** section.<br/>
 ![model_eval_results](/img/model_eval_results.png?raw=true)
 
