@@ -84,9 +84,8 @@ This repository contains several lab subfolders. Some labs include notebooks and
 ### Lab 5: Deploy Project into Production
 1. You must have completed Lab 1, Lab 2, Lab 3 and Lab 4 before working through this lab.
 2. Data scientists have to commit changes to the project. You can commit assets by clicking on the 
-Git action icon in the top right corner. Select Commit, then Push. 
-<br/>
-![commit_push](/img/project_commit_push.png?raw=true)
+Git action icon in the top right corner. Select Commit, then Push. ![commit_push](/img/project_commit_push.png?raw=true)
+![deployment_manager](/img/deployment_manager.png?raw=true)
 
 3. Specify the **commit message** about the changes you are committing, e.g. "*deploy generated scripts*".
 4. Click **Push** to push the changes to the Git repository.
