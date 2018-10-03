@@ -66,20 +66,16 @@ This repository contains several lab subfolders. Some labs include notebooks and
    - Click **Generate Batch Script**.  
    - Click Click **Run now**.  Refresh the browser to see the job status (Scroll to the bottom of page to see the job status).
    - Verify that the *new_brake_events_scores.csv* is in the data section of the project.
+   <br/>
 6.  Navigate the to the **Models** section and click into the saved **BrakeEventClassifier**.
 7.  Click the **Evaluate** tab. 
-    - For the scripts inputs, specify these values.<br/>
-    ![model_eval](/img/model_eval.png?raw=true)
-
-    - Click **Advanced Settings** and change the name of the script. For example, you can name it ChurnModelEvalScript. Click Save.
+    - For **Input data set**, select *brake_events_eval.csv*.  For **Threshold metric** select **Accuracy Score**.
+    - Click **Advanced Settings** to review the default settings. Click Save.
     - Click **Generate evaluation Script**.
-    - Click **Run now** and wait till the status changes to Success (Scroll to the bottom of page to see the job status).
-    - To see the results of the model evaluation, navigate the to the **Models** section of the project and click into the model **Telco_Churn_ML_model**.  Scorll down to the **Evaluation results** section.<br/>
-    ![model_eval_results](/img/model_eval_results.png?raw=true)
-
-
-7. Navigate the to the **RStudio** section and click **Open RStudio**
-8. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
+    - Click **Run now**. Refresh the browser to see the job status (Scroll to the bottom of page to see the job status).
+    - To see the results of the model evaluation, navigate the to the **Models** section of the project and click into the model **BrakeEventClassifier**.  Scorll down to the **Evaluation results** section.<br/>
+8. Navigate the to the **RStudio** section and click **Open RStudio**
+9. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
 ### Lab 5: Deploy Project into Production
 1. You must have completed Lab 1, Lab 3 and Lab 4 before working through this lab.
