@@ -129,8 +129,9 @@ A tag is used to identify a specific version of the project. There may be many v
       - Enable schedules (if they are configured)
       - Enable on-demand invocation of jobs. 
 
-23. When all the deployments are enabled, click on any of the deployments and test them either with an API call or run a batch job on demand.
-
+23. When all the deployments are enabled, click on any of the deployments and test them either with an API call or run an app or a job on demand.
+    - **web service**: To test the *telco-churn-online* deployment, click the deployment, click **API** and then **Submit** to submit the data for scoring.  Click **Generate Code** to generate the curl command to invoke the model remotely.<br/>
+    ![mmd_deployments](/img/test_webservice_deployment.png?raw=true)<br/>
 
 
 
