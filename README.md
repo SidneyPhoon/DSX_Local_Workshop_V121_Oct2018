@@ -136,6 +136,9 @@ A tag is used to identify a specific version of the project. There may be many v
     ![mmd_deployments](/img/test_app_deployment.png?raw=true)<br/>
     - **Job**:  To test a job, e.g. model eval or batch job, click on the deployment. Click the **API** tab.  Click **Start** from the dropdown menu, then click Submit. This issues the REST request to invoke the batch job.<br/>
     ![mmd_deployments](/img/test_job_deployment.png?raw=true)<br/>
+    - Take note of the job result and runID. <br/>
+    ![mmd_deployments](/img/job_status.png?raw=true)<br/>
+             - From the dropdown menu, select **Status**, copy and paste the **Run ID** and click Submit
 
 
 
