@@ -88,8 +88,11 @@ Git action icon in the top right corner.  Select **Commit**, then **Push**. Spec
 ![commit_push](/img/project_commit_push.png?raw=true)
 3.  At this time, do not specify the version tag.<br/>
 ![commit_push](/img/project_push.png?raw=true)
-4. Now we are assuming that a different person, a deployment admin, is taking over deployment. Click on the Git icon and select Commit History. Notice that we can add a tag to the project. <br/>
-A tag is used to identify a specific version of the project. There may be many versions of the assets in the project, but only specific versions should be used in production.
+4. Now we are assuming that a different person, a deployment admin, is taking over deployment. Click on the Git icon and select Commit History. Notice that we can add a tag to the project. <br/><br/>
+A tag is used to identify a specific version of the project. There may be many versions of the assets in the project, but only specific versions should be used in production.<br/>
+![commit_history](/img/commit_history.png?raw=true)
+5.  Provide a tag, for example, WorkshopRelease, and click **Save**.
+![commit_history tagged](/img/commit_history_tagged.png?raw=true)
 
 
 
