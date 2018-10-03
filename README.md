@@ -132,6 +132,8 @@ A tag is used to identify a specific version of the project. There may be many v
 23. When all the deployments are enabled, click on any of the deployments and test them either with an API call or run an app or a job on demand.
     - **web service**: To test the *telco-churn-online* deployment, click the deployment, click **API** and then **Submit** to submit the data for scoring.  Click **Generate Code** to generate the curl command to invoke the model remotely.<br/>
     ![mmd_deployments](/img/test_webservice_deployment.png?raw=true)<br/>
+    - **App**: To test an app, i.e. Shiny App or Notebook, click on the ellipses next to app deployment, select Share Endpoint, and copy and paste it to a new browser window. <br/>
+    ![mmd_deployments](/img/test_app_deployment.png?raw=true)<br/>
 
 
 
