@@ -53,8 +53,11 @@ This repository contains several lab subfolders. Some labs include notebooks and
 ![model_eval_results](/img/model_eval_results.png?raw=true)
 
 ### Lab 4: Build R models in Jupyter and deploy R model.  Test and evaluate R model, run Shiny App with embedded model.
-1. Navigate to **Assets** view and open **DriverClassification** notebook.  
-2. Execute the code cells in the notebook, making sure to save the model into RStudio
+1. Navigate to **Assets** view, in the **Notebooks** section open **DriverClassification** notebook.  
+2. Execute the code cells in the notebook, making sure to save the model into the RStudio directory and the ML Repository
+3. Navigate the to the **Models** section and click into the saved **BrakeEventClassifier**.
+4. Click the **Real-time score** tab.
+
 3. Open RStudio
 4. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
