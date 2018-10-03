@@ -1,4 +1,4 @@
-# DSX Local Workshop V1.2
+# DSX Local Workshop V1.2.1
 In this workshop you will learn how to develop and deploy applications in DSX Local. The workshop has been divided into several stand-alone parts for those who are interested in a specific development tool or deployment task.
 
 This lab is meant to be instructor-led.  That is, the instructor will explain the objectives of the DSX capabilities covered in each lab, and demonstrate some of those capabilities at the beginning of each lab.
@@ -9,11 +9,11 @@ This repository contains several lab subfolders. Some labs include notebooks and
 
 ## Prerequisites
 1. Knowledge of analytics. These labs do not teach you the basics of analytics or how to implement analytics in R, Python and SPSS. The purpose of this workshop is to provide hands-on experience with analytics tools and deployment functions in DSX Local. 
-2. To run this workshop you need an instance of DSX Local V1.2. 
-3. Download the [DSX_Local_V12_Workshop.zip](https://github.com/SidneyPhoon/DSX_Local_Workshop_V12/blob/master/DSX%20Local%20Projects/DSX_Local_V12_Workshop.zip?raw=true).
+2. To run this workshop you need an instance of DSX Local V1.2.1. 
+3. Download the [DSX_Local_V121_Workshop.zip](https://github.com/SidneyPhoon/DSX_Local_Workshop_V12/blob/master/DSX%20Local%20Projects/DSX_Local_V12_Workshop.zip?raw=true).
 
 ### Setting up lab projects in DSX Local
-1. Rename the downloaded **DSX_Local_V12_Workshop.zip** file and give it a unique name.  For example, add your initials.    *Note: Project names in DSX Local cluster must be unique. When we create a project "from file", the project name is inherited from the file name*.
+1. Rename the downloaded **DSX_Local_V121_Workshop.zip** file and give it a unique name.  For example, add your initials.    *Note: Project names in DSX Local cluster must be unique. When we create a project "from file", the project name is inherited from the file name*.
 2. Log in to DSX Local.
 3. Select "New Project" and select "From File".
 4. Browse to the .zip file and click **Create**.
@@ -24,26 +24,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 2. Navigate to **Assets** view and open **TelcoChurn_SparkML** *Jupyter* notebook. This notebook has been implemented for the Python 2.7 runtime. The version of the runtime is displayed on the top right corner of the notebook. You can verify the runtime by running the first cell in the notebook. 
 3. Follow instructions in the notebook.
 
-### Lab 2: SPSS Modeler in DSX
-1. Navigate to **SPSS Modeler Flows** and open the **Predict_Customer_Churn** Modeler Stream.
-2. Review the Modeler steam and the palette of nodes
-3. Add a **C5** modeling node to the canvas and connect it to the Partition node.  Build a C5 model.
-4. Click **View Model** in the C5 model.
-4. Connect an **Evaluation** node to the C5 model and run it to evaluate its performance.
-5. Connect an **Analysis node** to the C5 model and run it
-6. Connect the two models and evaluate the two models side-by-side in the **Evaluation** node.
-
-**Optional Exercise:**
-1.  Add an **Aggregate** node to the canvas and connect it to the **Type** node.  Open the Aggregate node, in settings, calculate the **mean** of International, Local and LongDistace by **Gender** and **Status**
-2.  Add a **Merge** node and connect it to the **Aggregate** node, merge the means of each group to the orignal data set.
-3.  **Derive** 3 new fields, the differences between International, Local and LongDistace, and their respective means.
-4.  Build a **C5** model to predict **Churn** with these 3 additional derived fields.
-
-Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/DSX_Local_Workshop_V12/blob/master/modeler/Predict_Customer_Churn_Solution.str?raw=true).
-
-
-
-### Lab 3: Create Batch Script and Test Batch Scoring
+### Lab 2: Create Batch Script and Test Batch Scoring (Python)
 1. You must have completed "Lab 1: Build, Save and Test SparkML Models" before working through this lab.
 2. Navigate the to the **Models** section of the project and click into the saved **Telco_Churn_ML_model**.
 3. Click the **Batch score** tab.
@@ -58,7 +39,7 @@ Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/DSX_Local_Wo
 9. Click **Run now** and wait till the status changes to Success (Scroll to the bottom of page to see the job status).
 10. Verify that the *new_customers_scores.csv* is in the data section of the project.
 
-### Lab 4: Create Model Evaluation Script and Test Evaluation
+### Lab 3: Create Model Evaluation Script and Test Evaluation (Python)
 1. You must have completed "Lab 1: Build, Save and Test SparkML Models" before working through this lab.
 2. Navigate the to the **Models** section of the project and click into the saved **Telco_Churn_ML_model**.
 3. Click the **Evaluate** tab.
@@ -70,6 +51,8 @@ Download [Modeler Exercise Solution](https://github.com/SidneyPhoon/DSX_Local_Wo
 7. Click **Run now** and wait till the status changes to Success (Scroll to the bottom of page to see the job status).
 8. To see the results of the model evaluation, navigate the to the **Models** section of the project and click into the model  **Telco_Churn_ML_model**.  Scorll down to the **Evaluation results** section.<br/>
 ![model_eval_results](/img/model_eval_results.png?raw=true)
+
+### Lab 4:
 
 ### Lab 5: Deploy Project into Production
 1. You must have completed Lab 1, Lab 3 and Lab 4 before working through this lab.
