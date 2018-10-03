@@ -114,7 +114,7 @@ A tag is used to identify a specific version of the project. There may be many v
 17. Select **BreakEventClassifier** and click **Web service** to define an **Online Deployment** for the R model.
     - Specify the name *break-event-online*. 
     - Click **Create**<br/>
-18. Filter the assets by **Scripts** and configure jobs for the batch scoring and model evaluation scripts. Create 4 jobs for the 4 scripts listed.  Make sure the select the appropriate **Type** and "*Worker**.  For example: <br/>
+18. Filter the assets by **Scripts** and configure jobs for the batch scoring and model evaluation scripts. Create 4 jobs for the 4 scripts listed.  Make sure the select the appropriate **Type** and **Worker**.  For example, for the BreakEventClassifier model evaluation script, specify: <br/>
 ![mmd_create job for scripts](/img/mmd_create_job_for_scripts.png?raw=true)<br/>
 
 
