@@ -138,7 +138,7 @@ A tag is used to identify a specific version of the project. There may be many v
     ![mmd_deployments](/img/test_job_deployment.png?raw=true)<br/>
     - Take note of the job result and runID. <br/>
     ![mmd_deployments](/img/job_status.png?raw=true)<br/>
-             - From the dropdown menu, select **Status**, copy and paste the **Run ID** and click Submit
+    - From the dropdown menu, select **Status**, copy and paste the **Run ID** and click Submit
 
 
 
