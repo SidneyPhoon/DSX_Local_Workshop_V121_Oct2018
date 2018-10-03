@@ -82,7 +82,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 9. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
 ### Lab 5: Deploy Project into Production
-1. You must have completed Lab 1, Lab 3 and Lab 4 before working through this lab.
+1. You must have completed Lab 1, Lab 2, Lab 3 and Lab 4 before working through this lab.
 2. Navigate to the top of the project assets page and click **Commit and push**.<br/>
 ![commit_push](/img/commit_push.png?raw=true)
 3. Specify the **commit message** about the changes you are committing, e.g. "*deploy generated scripts*".
