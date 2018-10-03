@@ -105,11 +105,17 @@ A tag is used to identify a specific version of the project. There may be many v
 9. Click **Create**. This will take a few minutes because DSX is making a copy of all assets in the project.
 10. The default view shows all assets that are a part of the project. Notice that you can filter them by type if you select the drop down. 
 11.  Filter the assets by **Models**.
-12. Select **Telco_Churn_ML_model** and click **Web service** to define an **Online Deployment** for the model.
+12.  Select **Telco_Churn_ML_model** and click **Web service** to define an **Online Deployment** for the model.
     - Specify the name *telco-churn-online*.  Notice that the name gets appended to the URL (REST endpoint), that’s why it has to be lowercase with no special characters. 
     - Click **Create**
 15. The **REST endpoint** is displayed in the model details. This endpoint won’t be live until we launch the project.<br/>
 ![mmd_rest_endpoint](/img/mmd_rest_endpoint.png?raw=true)<br/>
+16.  Filter the assets by **Models**.
+17.  Select **BreakEventClassifier** and click **Web service** to define an **Online Deployment** for the R model.
+    - Specify the name *break-event-online*. 
+    - Click **Create**
+
+
 16. Filter the assets by **Scripts** and configure jobs for the batch scoring and model evaluation scripts.
 17. Click the **Deployments** tab to list all the deployments you have created. <br/>
 ![mmd_deployments](/img/mmd_deployments.png?raw=true)<br/>
