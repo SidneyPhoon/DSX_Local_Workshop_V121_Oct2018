@@ -56,7 +56,8 @@ This repository contains several lab subfolders. Some labs include notebooks and
 1. Navigate to **Assets** view, in the **Notebooks** section open **DriverClassification** notebook.  
 2. Execute the code cells in the notebook, making sure to save the model into the RStudio directory and the ML Repository
 3. Navigate the to the **Models** section and click into the saved **BrakeEventClassifier**.
-4. Click the **Real-time score** tab.  Enter these values and click Submit to test the model, brake_time_sec=5, brake_distance_ft=15, road_type=highway, braking_score=100, brake_pressure20pct=1, brake_pressure40pct=1, brake_pressure60pct=1, brake_pressure80pct=0, brake_pressure100pct=0, abs_event=0, travel_speed=65
+4. Click the **Real-time score** tab.  
+   * Enter these values and click Submit to test the model, brake_time_sec=5, brake_distance_ft=15, road_type=highway, braking_score=100, brake_pressure20pct=1, brake_pressure40pct=1, brake_pressure60pct=1, brake_pressure80pct=0, brake_pressure100pct=0, abs_event=0, travel_speed=65
 5. Click the **Batch score** tab.
    - For **Input data set**, select *TelcoModelFeedback.csv*.
    - For **Output data set**, check **"Local file"** and specify *new_customers_scores.csv*.
