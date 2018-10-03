@@ -52,7 +52,11 @@ This repository contains several lab subfolders. Some labs include notebooks and
 8. To see the results of the model evaluation, navigate the to the **Models** section of the project and click into the model  **Telco_Churn_ML_model**.  Scorll down to the **Evaluation results** section.<br/>
 ![model_eval_results](/img/model_eval_results.png?raw=true)
 
-### Lab 4:
+### Lab 4: Build R models in Jupyter and deploy R model.  Test and evaluate R model, run Shiny App with embedded model.
+1. Navigate to **Assets** view and open **DriverClassification** notebook.  
+2. Execute the code cells in the notebook, making sure to save the model into RStudio
+3. Open RStudio
+4. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
 ### Lab 5: Deploy Project into Production
 1. You must have completed Lab 1, Lab 3 and Lab 4 before working through this lab.
