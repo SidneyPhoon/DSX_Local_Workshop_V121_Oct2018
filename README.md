@@ -88,10 +88,9 @@ Git action icon in the top right corner.  Select **Commit**, then **Push**. Spec
 ![commit_push](/img/project_commit_push.png?raw=true)
 3.  At this time, do not specify the version tag.<br/>
 ![commit_push](/img/project_push.png?raw=true)
+4. Now we are assuming that a different person, a deployment admin, is taking over deployment. Click on the Git icon and select Commit History. Notice that we can add a tag to the project. <br/>
+A tag is used to identify a specific version of the project. There may be many versions of the assets in the project, but only specific versions should be used in production.
 
-
-3. Specify the **commit message** about the changes you are committing, e.g. "*deploy generated scripts*".
-4. Click **Push** to push the changes to the Git repository.
 
 
 4. Specify a **version tag**, e.g. *workshop-release-<your initials>*.  A version tag marks a deployment ready version of the project, and identifies a specific version of the project.
