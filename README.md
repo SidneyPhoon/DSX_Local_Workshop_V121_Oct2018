@@ -83,7 +83,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 
 ### Lab 5: Deploy Project into Production
 1. You must have completed Lab 1, Lab 2, Lab 3 and Lab 4 before working through this lab.
-2. Navigate to the top of the project assets page and click **Commit and push**.<br/>
+2. Navigate to the top right of the project assets page and click **Commit**.<br/>
 ![commit_push](/img/project_commit.png?raw=true)
 3. Specify the **commit message** about the changes you are committing, e.g. "*deploy generated scripts*".
 4. Specify a **version tag**, e.g. *workshop-release-<your initials>*.  A version tag marks a deployment ready version of the project, and identifies a specific version of the project.
