@@ -59,14 +59,26 @@ This repository contains several lab subfolders. Some labs include notebooks and
 4. Click the **Real-time score** tab.  
    * Enter these values and click Submit to test the model, brake_time_sec=5, brake_distance_ft=15, road_type=highway, braking_score=100, brake_pressure20pct=1, brake_pressure40pct=1, brake_pressure60pct=1, brake_pressure80pct=0, brake_pressure100pct=0, abs_event=0, travel_speed=65
 5. Click the **Batch score** tab.
-   - For **Input data set**, select *TelcoModelFeedback.csv*.
-   - For **Output data set**, check **"Local file"** and specify *new_customers_scores.csv*.
+   - For **Input data set**, select *new_brake_events.csv*.
+   - For **Output data set**, specify *new_brake_events_scores.csv*.
    - On the top right, click **Advanced Settings**.
    - Scroll through the Advanced Setting to see the various options.  Click **Save** to save the default settings.
-   - Click **Generate Batch Script**.  (Note: the batch script can be edited. For example, to perform pre/post processing tasks)
-6. test erer
+   - Click **Generate Batch Script**.  
+   - Click Click **Run now**.  Refresh the browser to see the job status (Scroll to the bottom of page to see the job status).
+   - Verify that the *new_brake_events_scores.csv* is in the data section of the project.
+6.  Navigate the to the **Models** section and click into the saved **BrakeEventClassifier**.
+7.  Click the **Evaluate** tab. 
+    - For the scripts inputs, specify these values.<br/>
+    ![model_eval](/img/model_eval.png?raw=true)
 
-7. Open RStudio
+    - Click **Advanced Settings** and change the name of the script. For example, you can name it ChurnModelEvalScript. Click Save.
+    - Click **Generate evaluation Script**.
+    - Click **Run now** and wait till the status changes to Success (Scroll to the bottom of page to see the job status).
+    - To see the results of the model evaluation, navigate the to the **Models** section of the project and click into the model **Telco_Churn_ML_model**.  Scorll down to the **Evaluation results** section.<br/>
+    ![model_eval_results](/img/model_eval_results.png?raw=true)
+
+
+7. Navigate the to the **RStudio** section and click **Open RStudio**
 8. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
 ### Lab 5: Deploy Project into Production
