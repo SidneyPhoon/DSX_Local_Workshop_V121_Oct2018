@@ -115,7 +115,7 @@ A tag is used to identify a specific version of the project. There may be many v
     - Specify the name *break-event-online*. 
     - Click **Create**<br/>
 18. Filter the assets by **Scripts** and configure jobs for the batch scoring and model evaluation scripts. Create 4 jobs for the 4 scripts listed.  Make sure the select the appropriate **Type** and "*Worker**.  For example: <br/>
-![mmd_create job for scripts](/img/mmd_create_job-for_scripts.png?raw=true)<br/>
+![mmd_create job for scripts](/img/mmd_create_job_for_scripts.png?raw=true)<br/>
 
 
 19. Click the **Deployments** tab to list all the deployments you have created. <br/>
