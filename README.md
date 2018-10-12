@@ -13,7 +13,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 3. Download the [DSX_Local_V121_Workshop.zip](https://ibm.box.com/s/ohf7ao9of77ryisg7zlqt094o2r3guwm).
 
 ### Setting up lab projects in DSX Local
-1. Rename the downloaded **DSX_Local_V121_Workshop.zip** file and give it a unique name.  For example, add your initials.    *Note: Project names in DSX Local cluster must be unique. When we create a project "from file", the project name is inherited from the file name*.
+1. Rename the downloaded **DSX_Local_V121_Workshop.zip** file and give it a **unique name**.  For example, add your initials.    *Note: Project names in DSX Local cluster must be unique. When we create a project "from file", the project name is inherited from the file name*.
 2. Log in to DSX Local.
 3. Select "New Project" and select "From File".
 4. Browse to the .zip file and click **Create**.
@@ -36,7 +36,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 
 ![batchscoring](/img/batch_scoring.png?raw=true)
 
-9. Click **Run now**. Wait till the status changes to Success or refresh the browser to see the job status (Scroll to the bottom of page to see the job status).
+9. Click **Run now**. Refresh the browser to see the latest job status (Scroll to the bottom of page to see the job status).
 10. Verify that the *new_customers_scores.csv* is in the data section of the project.
 <br/>
 
@@ -49,7 +49,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 
 5. Click **Advanced Settings** and change the name of the script. For example, you can name it ChurnModelEvalScript. Click Save.
 6. Click **Generate evaluation Script**.
-7. Click **Run now**. Wait till the status changes to Success or refresh the browser to see the job status (Scroll to the bottom of page to see the job status).
+7. Click **Run now**. Refresh the browser to see the latest job status (Scroll to the bottom of page to see the job status).
 8. To see the results of the model evaluation, navigate the to the **Models** section of the project and click into the model  **Telco_Churn_ML_model**.  Scroll down to the **Evaluation results** section.<br/>
 ![model_eval_results](/img/model_eval_results.png?raw=true)
 
