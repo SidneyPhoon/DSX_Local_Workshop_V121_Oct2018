@@ -82,7 +82,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 9. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
 
 ### Lab 5: Deployment
-1. You must have completed Lab 1, Lab 2, Lab 3 and Lab 4 before working through this lab.
+1. The objective of this lab is to deploy the assets you created in Labs 1 through 4.  You must have completed Lab 1, Lab 2, Lab 3 and Lab 4 before working through this lab.
 2. Data scientists have to commit changes to the project. You can commit assets by clicking on the 
 Git action icon in the top right corner.  Select **Commit**, then **Push**. Specify the commit message about the changes you are committing, e.g. "deploy generated scripts".<br/>
 ![commit_push](/img/project_commit_push.png?raw=true)
@@ -91,7 +91,7 @@ Git action icon in the top right corner.  Select **Commit**, then **Push**. Spec
 4. Now we are assuming that a different person, a deployment admin, is taking over deployment. Click on the Git icon and select Commit History. Notice that we can add a tag to the project. <br/><br/>
 A tag is used to identify a specific version of the project. There may be many versions of the assets in the project, but only specific versions should be used in production.<br/>
 ![commit_history](/img/commit_history.png?raw=true)
-5.  Provide a tag, for example, WorkshopRelease, and click **Save**.
+5.  Provide a tag, for example, WorkshopRelease-<Your Initials>, and click **Save**.  The tag for the release must be unique for the cluster you are sharing with other users.
 ![commit_history tagged](/img/commit_history_tagged.png?raw=true)
 6. Navigate to the **Deployment Manager**.  <br/>
 ![deployment_manager](/img/deployment_manager.png?raw=true)
