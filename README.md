@@ -9,7 +9,8 @@ This repository contains several lab subfolders. Some labs include notebooks and
 
 ## Prerequisites
 1. Knowledge of analytics. These labs do not teach you the basics of analytics or how to implement analytics in R, Python and SPSS. The purpose of this workshop is to provide hands-on experience with analytics tools and deployment functions in DSX Local. 
-2. To run this workshop you need an instance of DSX Local V1.2.1. 
+2. To run this workshop you need an instance of DSX Local V1.2.1.
+3. The supported browsers are Chrome or Firefox.
 3. Download the [DSX_Local_V121_Workshop.zip](https://ibm.box.com/s/ohf7ao9of77ryisg7zlqt094o2r3guwm).
 
 ### Setting up lab projects in DSX Local
