@@ -56,6 +56,7 @@ This repository contains several lab subfolders. Some labs include notebooks and
 
 <br/>
 
+<!---
 ### Lab 4: Build R models in Jupyter and deploy R model.  Test and evaluate R model, run Shiny App with embedded model.
 1. Navigate to **Assets** view, in the **Notebooks** section open **DriverClassification** notebook.  
 2. Execute the code cells in the notebook, making sure to save the model into the RStudio directory and the ML Repository
@@ -81,7 +82,8 @@ This repository contains several lab subfolders. Some labs include notebooks and
 <br/>
 8. Navigate the to the **RStudio** section and click **Open RStudio**
 9. The "demoBrakeEvents" Shiny App is already included in this project.  Open demoBrakeEvents\server.R and run it.
-
+--->
+<!--
 ### Lab 5: Deployment
 1. The objective of this lab is to deploy the assets you created in Labs 1 through 4.  You must have completed Lab 1, Lab 2, Lab 3 and Lab 4 before working through this lab.
 2. Data scientists have to commit changes to the project. You can commit assets by clicking on the 
@@ -142,3 +144,5 @@ A tag is used to identify a specific version of the project. There may be many v
     ![mmd_deployments](/img/job_status.png?raw=true)<br/>
     - From the dropdown menu, select **Status**, copy and paste the **Run ID** and click Submit
     - Click **Generate Code** to generate the curl command to invoke the job remotely.
+
+--->
